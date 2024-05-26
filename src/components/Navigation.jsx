@@ -15,7 +15,7 @@ const Navigation = () => {
   return (
     <>
     <Navbar bg='black'>
-      <Container xxl className='bg-white'>
+      <Container fluid className='bg-white'>
         <NavbarBrand href='#'>
           <Image src={Logo} fluid roundedCircle width={50} height={50}></Image>
         </NavbarBrand>
@@ -25,14 +25,9 @@ const Navigation = () => {
           <NavLink href='#Career'>Careers</NavLink>
           <NavLink href='#Contact'>Contact</NavLink>
         </Nav>
-        
         <Button>
           SIGN IN
         </Button>
-
-        
-
-
       </Container>
     </Navbar>
     </>
